@@ -82,6 +82,7 @@ plt.title('K-means Clustering')
 plt.xlabel('Annual Income')
 plt.ylabel('Spending Score')
 plt.show()
+plt.savefig('plot.png')
 
 
 # In[ ]:
