@@ -54,9 +54,13 @@ The "elbow" point on the plot indicates the optimal number of clusters.
 - `plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], s=300, c='red', marker='x')`: Plots the cluster centers as red 'x' marks. The `s=300` argument specifies the size of the markers.
 - `plt.title('K-means Clustering')`, `plt.xlabel('Annual Income')`, `plt.ylabel('Spending Score')`: Sets the title and labels of the plot.
 - `plt.show()`: Displays the plot.
+
 ## Results
 
 The results are visualized in a scatter plot, showing the clusters of customers based on their annual income and spending score. Each cluster is color-coded, and the cluster centers are highlighted.
+
+![image](https://github.com/SharvaniVaradharajan/PRODIGY_ML_02/assets/168558662/02b1385f-0417-412d-b9d4-34bfbc0e8318)
+
 
 ## Acknowledgments
 
